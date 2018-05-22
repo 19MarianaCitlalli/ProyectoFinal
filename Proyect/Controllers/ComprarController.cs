@@ -57,7 +57,7 @@ namespace Proyect.Controllers
                         HomeController.dinero=mu;
                  }
                 }
-            var y=WebApiCl'ient.Program.ProcessRepositories(opcion).Result;
+            var y=WebApiClient.Program.ProcessRepositories(opcion).Result;
             if(y.items==null){
                 ViewBag.error=true;
             }
